@@ -1,5 +1,16 @@
 # Quantum Mechanical Keyboard Firmware
 
+## Sulpice
+
+This is andrewsuzuki's fork of QMK for the [sulpice keyboard](https://github.com/andrewsuzuki/sulpice).
+
+To build and flash, run:
+
+```bash
+util/docker_build.sh handwired/sulpice:default
+teensy-loader-cli -mmcu=atmega32u4 -w -v .build/handwired_sulpice_default.hex
+```
+
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
 [![Build Status](https://travis-ci.org/qmk/qmk_firmware.svg?branch=master)](https://travis-ci.org/qmk/qmk_firmware)
 [![Discord](https://img.shields.io/discord/440868230475677696.svg)](https://discord.gg/Uq7gcHh)
