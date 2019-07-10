@@ -29,7 +29,8 @@ KC_LSPO,        KC_Z,           KC_X,           KC_C,           KC_V,           
 KC_Y,           KC_U,           KC_I,           KC_O,           KC_P,           KC_NO,
 KC_H,           KC_J,           KC_K,           KC_L,           KC_SCLN,        KC_QUOT,
 LT(LAYER_MOUSE, KC_N), LT(LAYER_ARROWMED, KC_M), KC_COMM, KC_DOT, KC_SLSH,      KC_RSPC,
-KC_BSPC,        LT(LAYER_NUMSYM, KC_ENT), KC_MEH, KC_NO,        MO(LAYER_RESET) //thumb cluster
+// TODO: reset should be on left hand (side with teensy), maybe?
+MO(LAYER_RESET),KC_NO,          KC_MEH,         LT(LAYER_NUMSYM, KC_ENT), KC_BSPC
 
 ),
 [LAYER_NUMSYM] = LAYOUT_sulpice(
@@ -46,7 +47,7 @@ KC_TRNS,        KC_GRV,         KC_LCBR,        KC_RCBR,        KC_PIPE,        
 KC_CIRC,        KC_AMPR,        KC_ASTR,        KC_LBRC,        KC_RBRC,        KC_BSLS,
 KC_P6,          KC_P7,          KC_P8,          KC_P9,          KC_P0,          KC_ENT,
 KC_TRNS,        KC_TRNS,        KC_PMNS,        KC_UNDS,        KC_PLUS,        KC_PEQL,
-KC_DEL,         KC_TRNS,        KC_NO,          KC_NO,          KC_TRNS //thumb cluster
+KC_TRNS,        KC_NO,          KC_NO,          KC_TRNS,        KC_DEL
 
 ),
 [LAYER_FN] = LAYOUT_sulpice(
@@ -63,7 +64,7 @@ KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          
 KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,
 KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,
 KC_TRNS,        KC_TRNS,        KC_NO,          KC_NO,          KC_NO,          KC_NO,
-KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRNS //thumb cluster
+KC_TRNS,        KC_NO,          KC_NO,          KC_NO,          KC_NO //thumb cluster
 
 ),
 [LAYER_MOUSE] = LAYOUT_sulpice(
@@ -80,7 +81,7 @@ KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          
 KC_NO,          KC_BTN1,        KC_BTN2,        KC_BTN3,        KC_WH_U,        KC_NO,
 KC_MS_L,        KC_MS_D,        KC_MS_U,        KC_MS_R,        KC_WH_D,        KC_NO,
 KC_TRNS,        KC_TRNS,        KC_ACL0,        KC_ACL1,        KC_ACL2,        KC_NO,
-KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRNS //thumb cluster
+KC_TRNS,        KC_NO,          KC_NO,          KC_NO,          KC_NO //thumb cluster
 
 ),
 [LAYER_ARROWMED] = LAYOUT_sulpice(
@@ -97,7 +98,7 @@ KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          
 KC_MPRV,        KC_MPLY,        KC_MUTE,        KC_MNXT,        KC_NO,          KC_PWR,
 KC_LEFT,        KC_DOWN,        KC_UP,          KC_RGHT,        KC_NO,          KC_NO,
 KC_NO,          KC_TRNS,        KC_VOLD,        KC_VOLU,        KC_NO,          KC_NO,
-KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRNS //thumb cluster
+KC_TRNS,        KC_NO,          KC_NO,          KC_NO,          KC_NO //thumb cluster
 
 ),
 [LAYER_RESET] = LAYOUT_sulpice(
@@ -114,7 +115,7 @@ KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          
 KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,
 KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,
 KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_NO,
-KC_NO,          KC_NO,          KC_NO,          KC_NO,          KC_TRNS //thumb cluster
+KC_TRNS,        KC_NO,          KC_NO,          KC_NO,          KC_NO //thumb cluster
 
 )
 };

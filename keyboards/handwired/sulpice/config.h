@@ -31,7 +31,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define PRODUCT         Sulpice
 #define DESCRIPTION     An ortholinear, split, curved keyboard with thumb clusters.
 
-#define DIODE_DIRECTION COL2ROW
+#define DIODE_DIRECTION ROW2COL
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 12
 #define COL_EXPANDED { true, true, true, true, true, true, false, false, false, false, false, false}
