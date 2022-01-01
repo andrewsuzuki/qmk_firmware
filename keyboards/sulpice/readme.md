@@ -1,8 +1,6 @@
 # sulpice
 
-![sulpice](imgur.com image replace me!)
-
-Keyboard Maintainer: [Andrew Suzuki](https://github.com/yourusername)  
+Keyboard Maintainer: [Andrew Suzuki](https://github.com/andrewsuzuki)
 Hardware Supported: teensy 2.0
 
 Make example for this keyboard (after setting up your build environment):

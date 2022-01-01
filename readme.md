@@ -7,8 +7,8 @@ This is andrewsuzuki's fork of QMK for the [sulpice keyboard](https://github.com
 To build and flash, run:
 
 ```bash
-util/docker_build.sh handwired/sulpice:default
-teensy-loader-cli -mmcu=atmega32u4 -w -v .build/handwired_sulpice_default.hex
+util/docker_build.sh sulpice:default
+teensy_loader_cli -mmcu=atmega32u4 -w -v .build/sulpice_default.hex
 ```
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
@@ -18,22 +18,22 @@ teensy-loader-cli -mmcu=atmega32u4 -w -v .build/handwired_sulpice_default.hex
 [![GitHub contributors](https://img.shields.io/github/contributors/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/pulse/monthly)
 [![GitHub forks](https://img.shields.io/github/forks/qmk/qmk_firmware.svg?style=social&label=Fork)](https://github.com/qmk/qmk_firmware/)
 
-This is a keyboard firmware based on the [tmk\_keyboard firmware](https://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR and ARM controllers, and more specifically, the [OLKB product line](https://olkb.com), the [ErgoDox EZ](https://ergodox-ez.com) keyboard, and the [Clueboard product line](https://clueboard.co).
+This is a keyboard firmware based on the [tmk_keyboard firmware](https://github.com/tmk/tmk_keyboard) with some useful features for Atmel AVR and ARM controllers, and more specifically, the [OLKB product line](https://olkb.com), the [ErgoDox EZ](https://ergodox-ez.com) keyboard, and the [Clueboard product line](https://clueboard.co).
 
 ## Documentation
 
-* [See the official documentation on docs.qmk.fm](https://docs.qmk.fm)
+-   [See the official documentation on docs.qmk.fm](https://docs.qmk.fm)
 
 The docs are hosted on [Gitbook](https://www.gitbook.com/book/qmk/firmware/details) and [GitHub](/docs/) (they are synced). You can request changes by making a fork and [pull request](https://github.com/qmk/qmk_firmware/pulls), or by clicking the "suggest an edit" link on any page of the docs.
 
 ## Supported Keyboards
 
-* [Planck](/keyboards/planck/)
-* [Preonic](/keyboards/preonic/)
-* [ErgoDox EZ](/keyboards/ergodox_ez/)
-* [Clueboard](/keyboards/clueboard/)
-* [Cluepad](/keyboards/clueboard/17/)
-* [Atreus](/keyboards/atreus/)
+-   [Planck](/keyboards/planck/)
+-   [Preonic](/keyboards/preonic/)
+-   [ErgoDox EZ](/keyboards/ergodox_ez/)
+-   [Clueboard](/keyboards/clueboard/)
+-   [Cluepad](/keyboards/clueboard/17/)
+-   [Atreus](/keyboards/atreus/)
 
 The project also includes community support for [lots of other keyboards](/keyboards/).
 
